@@ -32,5 +32,6 @@ This list of packages required is (based off their PyPI names):
 * matplotlib
 * googletrans
 * pyinflect
+* PyRouge
 
 We also used sagemaker specific packages and google colab specific packages that cannot be installed via PyPI, however these were mainly to set data directories to S3 buckets or Google Drive buckets. These parts of the code can be commented out if running our codebase locally.
